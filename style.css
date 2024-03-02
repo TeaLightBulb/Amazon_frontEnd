@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    border: border-box;
+}
+.border{
+    border: transparent;
+    border-radius: 5px;
+    height: 55px;
+}
+.pad{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* navabr1 */
+
+.navabr1{
+    height: 60px;
+    background-color: #15161a;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.logo{
+    background-image: url(logo_png.png);
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 127px;
+}
+.deliveryLocation{
+    margin-right: 12px;
+}
+.delivery{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: white;
+}
+.locationIcon{
+    display: flex;
+    align-items: center;
+}
+.Updatelocation{
+    font-size: 14px;
+}
+.searchBar{
+    display: flex;
+    width: 50%;
+    height: 35px;
+}
+.searchSelect{
+    color: #0f1111;
+    height: 100%;
+    width: 35px;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search{
+    color: #0f1111;
+    width: 90%;
+}
+.searchIcon{
+    background-color: #ffc60a;
+    height: 100%;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang-flag{
+    background-image: url("flagIndia.png");
+    height: 18px;
+    width: 25px;
+    background-size: cover;
+}
+.lang-select{
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.signin{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.account{
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.ret{
+    font-size: 11px;
+    margin-top: 15px;
+}
+.ord{
+    font-size: 15px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.txtsize{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* navbar2 */
+
+.navbar2{
+    height: 39px;
+    width: 100%;
+    background-color: #30333d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.fa-solid{
+    padding-right: 5px;
+}
+.navbar2 p{
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar2.border2 p{
+    border: transparent;
+    height: 30px;
+    border-radius: 3px;
+}
+.navbar2.border2 p:hover{
+    border: 1.5px solid white;
+}
+.nav2-drop{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+/* hero-section */
+
+.hero-section{
+    height: 750px;
+    width: 100%;
+    background-image:linear-gradient(transparent,rgb(255, 255, 255,5)), url(background_image.jpg);
+    background-size: cover;
+}
+
+/* .shop-options */
+
+.shop-options{
+    height: 467px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    margin-top: -470px;
+}
+.box{
+    height: 420px;
+    width: 324px;
+    background-color: white;
+}
+.image-in-row{
+    display: flex;
+    justify-content: space-around;  
+}
+.image-in-row img{
+    width: 43%;
+                                           /*  */
+    padding-bottom: 75px;
+}
+.box h2{
+    padding: 20px 10px 14px 14px;
+}
+.box-imagetype2 img{
+    width: 270px;
+    height: 276px;
+}
+.box-imagetype2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-type2{
+    height: 130px;
+    background-color: white;
+}
+.box-type3{
+    background-color: transparent;
+    border: none;
+}
+.signin-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+.signin-button button{
+    height: 30px;
+    width: 270px;
+    background-color: #ffc60a;
+    border: none;
+    border-radius: 7px;
+}
+.signin-button-element2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.box-type2 h2{
+    width: 324px;
+    padding: 24px 10px 0px 10px;
+}
+.textsize{
+    font-size: 21px;
+}
